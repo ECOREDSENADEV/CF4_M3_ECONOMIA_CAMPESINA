@@ -1,0 +1,23 @@
+<svg id="Grupo_1115617" data-name="Grupo 1115617" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1329.999" height="836.202" viewBox="0 0 1329.999 836.202">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff5cc" stop-opacity="0"/>
+      <stop offset="0.266" stop-color="#fff5cc"/>
+      <stop offset="0.754" stop-color="#fff5cc"/>
+      <stop offset="1" stop-color="#fff5cc" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9cc8ff"/>
+      <stop offset="1" stop-color="#9cc8ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9cc8ff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#9cc8ff"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectángulo_404930" data-name="Rectángulo 404930" width="1328" height="656" transform="translate(1)" fill="url(#linear-gradient)"/>
+  <g id="Grupo_1115606" data-name="Grupo 1115606" transform="translate(0 290.733)">
+    <path id="Unión_5" data-name="Unión 5" d="M.489,0V247.629c-.164.253-.326.5-.489.758V453.17c57,64.808,174.541,85.265,283.806,82.883,87.359-1.9,170.246-20.1,244.675-45.742,65.823-22.677,125.99-51.222,194.041-71.418,168.054-49.88,356.459-4.8,524.046,45.284,27.312,8.162,54.738,16.281,82.243,24.155v-210.8H1330V0Z" transform="translate(0.003 9.233)" opacity="0.15" fill="url(#linear-gradient-2)"/>
+    <path id="Unión_6" data-name="Unión 6" d="M1051.034,0C943.326,0,838.712,28.478,736.314,58.025,635.869,87.009,522.947,113.1,422.222,84.232c-40.788-11.688-76.849-28.208-116.3-41.332-44.61-14.839-94.29-25.37-146.649-26.472C100.084,15.181,36.843,24.734,0,54.273v423.8H1330V192.37h-1.186V94.052c-33.794-45.73-112.6-75.574-193.383-87.836A560.967,560.967,0,0,0,1051.047,0Z" transform="translate(1329.997 478.071) rotate(180)" opacity="0.2" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>

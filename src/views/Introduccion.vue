@@ -26,7 +26,7 @@
         
             .bg-color-1.tarjeta.p-4(data-aos="fade-left")
               .row.align-items-start
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/intro/3.png", style="max-width: 90px").mx-auto
                 .col-lg
                   p.mb-0 Este componente formativo busca que las familias campesinas y sus asociaciones desarrollen habilidades para negociar, reconocer sus derechos comerciales, evitar abusos, y fortalecer su presencia en mercados locales, nacionales e incluso internacionales. No se trata de convertir al campesino en abogado o economista, sino de fortalecer su palabra, su autonomía y su capacidad de decidir cómo y a quién venderle.
