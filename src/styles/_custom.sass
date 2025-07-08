@@ -1,32 +1,92 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float2 3.5s ease-in-out infinite alternate
     position: absolute
     top: 20%
-    right: 10%
+    right: 72%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 51%
-    right: 30%
+    right: 63%
+  &-3
+    animation: float1 3.8s ease-in-out infinite alternate
+    position: absolute
+    top: 31%
+    right: 10%
+  &-4
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 71%
+    right: 10%
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-  
+@keyframes float2
+  0%
+    transform: translateX(20px)
+  100%
+    transform: translateX(0px)
+
 .banner-principal .tarjeta
   background-position: left 50% !important
 
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
-
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+  width: 400px !important
 
 .banner-interno__titulo__icono i
   color: $color-primario
 
+.banner-interno__fondo
+  background-image: url("../assets/curso/banner_interno.png") !important
+
+
 figcaption
   font-weight: normal
+
+// Full Width Background
+.bg-full-width, .bg-full-width-2
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+.bg-full-width
+  background-size: cover
+.bg-full-width-2
+  background-size: contain
+
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/bg1.svg") 
+    background-position: bottom
+  //&-2
+    background-image: url("../assets/bg/bg2.png") 
+    background-position: bottom
+  //&-10
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(254, 252, 239, 1) 32%, rgba(254, 252, 239, 1) 68%, rgba(255, 255, 255, 1) 100%)
+  //&-slider
+    background-image: url("../assets/bg/bg-slider.png") 
+    background-position: bottom
+
+.bg-color
+  &-1
+    background-color: #D6EDBA
+  //&-2
+    background-color: #EBEEEB 
+  //&-3
+    background-color: #F6E15C 
+  //&-4
+    background-color: #FDF9DE 
+
+  &-white
+    background-color: white !important
+    border: 1px solid $lightest-gray
+  &-secundario
+    background-color: $color-secundario !important
+  &-sintesis
+    background-color: #F6F6F6
